@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_components.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_layout.scss" afterDir="false" />
     </list>
@@ -132,7 +133,7 @@
       <workItem from="1662670427831" duration="6835000" />
       <workItem from="1663010284740" duration="4647000" />
       <workItem from="1663319831819" duration="1918000" />
-      <workItem from="1663329356988" duration="6456000" />
+      <workItem from="1663329356988" duration="9962000" />
     </task>
     <servers />
   </component>
