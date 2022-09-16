@@ -379,3 +379,58 @@
 
     }
 }
+
+/////////////////////////////////////
+// REVIEWS
+
+.review {
+    background-color: #fff;
+    box-shadow: var(--shadow-light);
+    margin-bottom: 3.5rem;
+    padding: 3rem;
+
+    &__text {
+        margin-bottom: 2rem;
+    }
+
+    &__user {
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__photo {
+        margin-right: 1.5rem;
+        height: 4.5rem;
+        width: 4.5rem;
+        border-radius: 50%;
+
+    }
+
+    &__user-box {
+        margin-right: auto;
+
+    }
+
+    &__user-name {
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+
+    }
+
+    &__user-date {
+        font-size: 1rem;
+        color: var(--color-grey-dark-3);
+
+    }
+
+    &__rating {
+        font-size: 2.2rem;
+        font-weight: 300;
+        color: var(--color-primary);
+
+
+    }
+}
