@@ -114,3 +114,29 @@
         border-radius: 50%;
     }
 }
+
+.side-nav {
+
+    &__item {
+
+    }
+
+    &__link {
+
+    }
+
+    &__icon {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+////////////////////////////////////////////////
+// LEGAL TEXT
+
+.legal {
+    padding: 2.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--color-grey-light-4);
+}
