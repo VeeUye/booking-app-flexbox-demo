@@ -279,8 +279,17 @@
     cursor: pointer;
     transition: all .2s;
 
+    & span {
+        margin-left: 3px;
+        transition: margin-left .2s;
+    }
+
     &:hover {
         color: var(--color-grey-dark-1);
+
+        span {
+            margin-left: 8px;
+        }
     }
 
     &:focus {
@@ -384,13 +393,17 @@
 // REVIEWS
 
 .review {
+    position: relative;
     background-color: #fff;
     box-shadow: var(--shadow-light);
     margin-bottom: 3.5rem;
     padding: 3rem;
+    overflow: hidden;
 
     &__text {
+        position: relative;
         margin-bottom: 2rem;
+        z-index: 10;
     }
 
     &__user {
@@ -432,5 +445,17 @@
         color: var(--color-primary);
 
 
+    }
+
+    &::before {
+        content: "\201C";
+        position: absolute;
+        top: -2.75rem;
+        left: -1rem;
+        font-size: 20rem;
+        color: var(--color-grey-light-2);
+        font-family: sans-serif;
+        line-height: 1;
+        z-index: 1;
     }
 }
