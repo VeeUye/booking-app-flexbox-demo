@@ -30,8 +30,14 @@
 
   --line: 1px solid var(--color-grey-light-2);
 
-
 }
+
+$breakpoint-largest: 75em; // 1200px
+$breakpoint-large: 68.75em; // 1100px
+$breakpoint-medium: 56.25em; // 900px
+$breakpoint-small: 48.125em; // 770px
+$breakpoint-xsmall: 31.875em; // 510px
+$breakpoint-smallest: 30em; // 480px
 
 
 * {
@@ -48,6 +54,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @media only screen and (max-width: $breakpoint-large) {
+    font-size: 50%;
+  }
 }
 
 body {

@@ -5,6 +5,12 @@
     box-shadow: var(--shadow-dark);
 
     min-height: 50rem;
+
+    @media only screen and (max-width: $breakpoint-largest) {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
 .header {
@@ -15,10 +21,21 @@
     background-color: #fff;
     border-bottom: var(--line);
     font-size: 1.4rem;
+
+    @media only screen and (max-width: $breakpoint-xsmall) {
+        flex-wrap: wrap;
+        align-content: space-around;
+        height: 11rem;
+    }
 }
+
 
 .content {
     display: flex;
+
+    @media only screen and (max-width: $breakpoint-medium) {
+        flex-direction: column;
+    }
 }
 
 .sidebar {
@@ -41,6 +58,15 @@
     background-color: var(--color-grey-light-1);
     border-bottom: var(--line);
     font-size: 1.4rem;
+
+    @media only screen and (max-width: $breakpoint-medium) {
+        padding: 3rem;
+    }
+
+    @media only screen and (max-width: $breakpoint-small) {
+        flex-direction: column;
+    }
+
 }
 
 .description {
@@ -49,6 +75,16 @@
     padding: 3rem;
     background-color: #fff;
     box-shadow: var(--shadow-light);
+
+    @media only screen and (max-width: $breakpoint-medium) {
+        margin-right: 2rem;
+        padding: 3rem;
+    }
+
+    @media only screen and (max-width: $breakpoint-small) {
+        margin-right: 0rem;
+        margin-bottom: 3rem;
+    }
 
 }
 
