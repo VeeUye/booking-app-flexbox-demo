@@ -4,8 +4,6 @@
     <list default="true" id="c47196f0-ff9b-4428-8d67-de257130c186" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_components.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +128,7 @@
       <workItem from="1662670427831" duration="6835000" />
       <workItem from="1663010284740" duration="4647000" />
       <workItem from="1663319831819" duration="1918000" />
-      <workItem from="1663329356988" duration="25696000" />
+      <workItem from="1663329356988" duration="26169000" />
     </task>
     <servers />
   </component>
